@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemaLab19", "TemaLab19\TemaLab19.csproj", "{AE41B373-9037-4324-BCB7-7037C2027ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{F6A6CF51-080E-4AA0-9A7C-DA3D6BCEF224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE41B373-9037-4324-BCB7-7037C2027ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE41B373-9037-4324-BCB7-7037C2027ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE41B373-9037-4324-BCB7-7037C2027ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE41B373-9037-4324-BCB7-7037C2027ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A6CF51-080E-4AA0-9A7C-DA3D6BCEF224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A6CF51-080E-4AA0-9A7C-DA3D6BCEF224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A6CF51-080E-4AA0-9A7C-DA3D6BCEF224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A6CF51-080E-4AA0-9A7C-DA3D6BCEF224}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {880A6C70-667C-4F0B-9AEF-C847DC990A92}
+	EndGlobalSection
+EndGlobal
