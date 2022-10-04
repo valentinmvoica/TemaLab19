@@ -68,7 +68,7 @@ namespace Data
             ctx.Remove(student);
             ctx.SaveChanges();
         }
-        public void ChangeStudentData(int studentId, Student newStudent)
+        public void ChangeStudentData(int studentId, Student newStudentData)
         {
             using var ctx = new CatalogueDbContext(this.connectionString);
             var student = ctx.Students.FirstOrDefault(s => s.Id == studentId);
@@ -76,9 +76,9 @@ namespace Data
             if (student == null)
                 return;
 
-            student.FirstName = newStudent.FirstName;
-            student.LastName = newStudent.LastName;
-            student.Age = newStudent.Age;
+            student.FirstName = newStudentData.FirstName;
+            student.LastName = newStudentData.LastName;
+            student.Age = newStudentData.Age;
 
             ctx.SaveChanges();
         }

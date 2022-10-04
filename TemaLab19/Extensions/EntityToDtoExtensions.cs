@@ -4,7 +4,7 @@ using TemaLab19.DTOs;
 namespace TemaLab19.Extensions
 {
     public static class EntityToDtoExtensions
-    {
+    {       
         public static StudentToGet ToDto(this Student student)
         {
             if (student == null)
